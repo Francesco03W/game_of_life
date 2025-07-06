@@ -103,10 +103,8 @@ int main()
 	int tick=0;
 	while(1)
 	{
-		//grid of next tick
 		char new_grid[ROWS][COLS];
 		seed_generation(new_grid);
-		//print current tick grid
 		tick++;
 		print_grid(grid,tick);
 		sleep(1);
